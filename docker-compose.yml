@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ubuntu:
+    # image: ubuntu/ruby
+    build: .
+    container_name: ruby
+    tty: true
