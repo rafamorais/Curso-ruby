@@ -5,9 +5,5 @@ services:
     image: ubuntu-ruby
     container_name: ruby
     volumes:
-<<<<<<< HEAD
-      - ./app:/app  
-=======
       - ./app:/app
->>>>>>> 8a690abf1e2146e4ba5910a51e1890d18aef0202
     tty: true
