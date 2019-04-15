@@ -2,7 +2,7 @@ version: '3'
 services:
   ubuntu:
     # build: .
-    image: ubuntu-ruby
+    image: ubuntu/ruby
     container_name: ruby
     volumes:
       - ./app:/app
