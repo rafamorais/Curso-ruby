@@ -29,4 +29,4 @@ end
 rafael  = Person.new('Rafael', 31)
 
 puts 'Name: ' + rafael.name
-puts 'Age: ' + rafael.age.to_s
+puts 'Age: '  + rafael.age.to_s
